@@ -29,7 +29,6 @@
         "nunomaduro/collision": "^5.0",
         "phpunit/phpunit": "^9.3.3",
         "barryvdh/laravel-ide-helper": "^2.8",
-        "fzaninotto/faker": "^1.9.1",
         "roave/security-advisories": "dev-latest"
     },
     "config": {
