@@ -11,6 +11,7 @@ fi
 composer install --optimize-autoloader --no-dev
 npm i
 npm audit fix --force
+php artisan migrate
 chmod -R ugo+rw /.composer
 
 if [ ! -z "$PORT" ]; then
