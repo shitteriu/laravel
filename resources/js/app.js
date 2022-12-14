@@ -1,9 +1,3 @@
-import '@/plugins/lodash';
-import '@/plugins/moment';
-import '@/plugins/ladda';
-import '@/plugins/axios';
-import "@/components";
-
 import Vue from "vue";
 import Vuex from 'vuex';
 import Meta from 'vue-meta';
@@ -13,11 +7,6 @@ import {VueReCaptcha} from "vue-recaptcha-v3";
 import VueElementLoading from 'vue-element-loading';
 import TextareaAutosize from 'vue-textarea-autosize';
 import vueFilterPrettyBytes from 'vue-filter-pretty-bytes';
-
-import store from '@/store';
-import App from "@/views/app";
-import i18n from "@/language";
-import router from "@/views/router";
 
 Vue.use(Vuex);
 Vue.use(Meta);
