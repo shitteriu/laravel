@@ -8,9 +8,9 @@ if [ ! -d /.composer ]; then
     mkdir /.composer
 fi
 
-npm install
-npm audit fix --force
 composer install --optimize-autoloader --no-dev
+npm i
+npm audit fix --force
 chmod -R ugo+rw /.composer
 
 if [ ! -z "$PORT" ]; then
