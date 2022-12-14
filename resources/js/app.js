@@ -1,7 +1,7 @@
 import Vue from "vue";
 import Vuex from 'vuex';
 import Meta from 'vue-meta';
-import SvgVue from 'svg-vue';
+
 import Notifications from 'vue-notification';
 import {VueReCaptcha} from "vue-recaptcha-v3";
 import VueElementLoading from 'vue-element-loading';
