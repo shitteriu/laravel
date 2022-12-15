@@ -1,6 +1,6 @@
 {
-    "/js/app.js": "/js/app.js",
-    "/css/app.css": "/css/app.css",
-    "/js/app.js.map": "/js/app.js.map",
-    "/css/app.css.map": "/css/app.css.map"
+    "/js/app.js": "https://laravel-production-6780.up.railway.app/js/app.js?id=b6ef55e37d99e20b55e0",
+    "/css/app.css": "https://laravel-production-6780.up.railway.app/css/app.css?id=a1c54a85e5d99f66908f",
+    "/js/app.js.map": "https://laravel-production-6780.up.railway.app/js/app.js.map?id=64b51ac6abadf8e9d229",
+    "/css/app.css.map": "https://laravel-production-6780.up.railway.app/css/app.css.map?id=fdf8d09c9be12c5418e8"
 }
