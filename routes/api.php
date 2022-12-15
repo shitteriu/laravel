@@ -44,7 +44,7 @@ Route::get('tickets/statuses', [UserTicketController::class, 'statuses'])->name(
 Route::get('tickets/departments', [UserTicketController::class, 'departments'])->name('tickets.departments');
 Route::post('tickets/attachments', [FileFileController::class, 'uploadAttachment'])->name('tickets.upload-attachment');
 Route::post('tickets/{ticket}/reply', [UserTicketController::class, 'reply'])->name('tickets.reply');
-Route::apiResource('tickets', UserTicketController::class)->except(['update', 'destroy']);
+Route::apiResource('ticket/User', UserTicketController::class)->except(['update', 'destroy']);
 
 Route::group(['prefix' => 'dashboard'], static function () {
 
