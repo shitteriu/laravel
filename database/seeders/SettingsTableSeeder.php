@@ -19,7 +19,7 @@ class SettingsTableSeeder extends Seeder
         if (Setting::where('key', 'app_url')->count() === 0) {
             $setting = new Setting();
             $setting->key = 'app_url';
-            $setting->value = env('APP_URL', 'http://localhost');
+            $setting->value = env('APP_URL', 'https://localhost');
             $setting->is_env = true;
             $setting->save();
         }
